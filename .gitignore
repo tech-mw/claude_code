@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+
+# Environment files
+.env
+
+node_modules/
+db.sqlite3
+
+# Claude Code
+.claude
+
+# Editor settings
+.vscode/
+.idea/
+
+# pyenv
+.python-version
