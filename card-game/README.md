@@ -14,8 +14,8 @@ FastAPI（Python）と typescript（vue.js）を用いて作成したシンプ�
 ## セットアップと実行方法
 
 ### 1. バックエンドの準備
-- 起動後、バックエンド API は http://localhost:8000 で待機
-  - FastAPI の自動ドキュメント: http://localhost:8000/docs
+- 起動後、バックエンド API は `http://localhost:8000` で待機
+  - FastAPI の自動ドキュメント: `http://localhost:8000/docs`
 ```
 $ cd backend
 
@@ -45,9 +45,15 @@ $ npm install
 # 開発サーバー起動
 $ npm run dev
 ```
+---
 
 ## ゲームルール
 - 現在のカードより「高い」か「低い」かを予想
 - 正解するとスコア +10点、連続正解数もカウント 
 - 同じ値は不正解扱い 
 - デッキがなくなると自動でシャッフル
+
+---
+
+## サンプルゲーム画面
+https://github.com/user-attachments/assets/41f60c72-431a-41a0-8db1-1de455168e0b
