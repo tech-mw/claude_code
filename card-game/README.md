@@ -14,8 +14,8 @@ FastAPI（Python）と typescript（vue.js）を用いて作成したシンプ�
 ## セットアップと実行方法
 
 ### 1. バックエンドの準備
-- 起動後、バックエンド API は http://127.0.0.1:8000 で待機
-  - FastAPI の自動ドキュメント: http://127.0.0.1:8000/docs
+- 起動後、バックエンド API は http://localhost:8000 で待機
+  - FastAPI の自動ドキュメント: http://localhost:8000/docs
 ```
 $ cd backend
 
